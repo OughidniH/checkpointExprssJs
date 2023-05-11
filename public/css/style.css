@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Special+Elite&display=swap");
+
+body {
+  background-image: url("/Image/bg.jpg");
+  background-repeat: no-repeat;
+}
+
+header {
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: transparent;
+  position: relative;
+  padding-top: 30px;
+}
+.nav-bar {
+  width: 100%;
+
+  font-size: 150%;
+  font-weight: 200;
+  margin-right: 20px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+
+  font-weight: bold;
+}
+.nav-bar a {
+  text-decoration: none;
+  padding: 10px 10px;
+  color: black;
+}
+.nav-bar a:visited {
+  color: gray;
+}
+.nav-bar a:hover {
+  border: 2px solid black;
+
+  border-radius: 40px;
+}
+section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+
+  height: 500px;
+}
+h1 {
+  font-family: "Special Elite", cursive;
+  font-size: 70px;
+  font-style: italic;
+}
